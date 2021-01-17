@@ -1,10 +1,9 @@
 # Description
 
-A simple example on how to integrate the contextlogger package in a Fastapi app for contextual and structured logging.
+A simple example on how to integrate the **[contextlogger](https://pypi.org/project/contextlogger/)** package in a **[FastApi](https://fastapi.tiangolo.com/)** app for contextual and structured logging.
 
-It builds on top of the basic example that is provided in the **FastApi** documentation [here](https://fastapi.tiangolo.com/).
+It builds on top of the basic example that is provided in the **[FastApi](https://fastapi.tiangolo.com/)** documentation, so hopefully it looks familiar.
 
-If you are interested in the **contextlogger** package you can find it [here](https://pypi.org/project/contextlogger/).
 
 
 # Requirements
@@ -15,9 +14,11 @@ pip install pipenv
 ```
 
 Alternatively you can pip install the following packages globally or in a virtual env (better)
-1. fastapi
-2. uvicorn[standard]
-3. contextlogger
+```
+pip install fastapi
+pip install uvicorn[standard]
+pip install contextlogger
+```
 
 
 # Usage

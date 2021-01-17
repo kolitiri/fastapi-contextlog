@@ -17,7 +17,7 @@ clogger.clogvars = [
 
 
 @app.middleware("http")
-async def add_process_time_header(request: Request, call_next):
+async def add_request_id(request: Request, call_next):
     # Set the request_id value
     clogger.setvar('request_id')
 
